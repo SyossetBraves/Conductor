@@ -34,7 +34,7 @@ jobs:
     - name: rust-clippy-check
       uses: actions-rs/clippy-check@v1
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{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}}
         name: Ubuntu
     - name: Archive Raw Application
       uses: actions/upload-artifact@v2
